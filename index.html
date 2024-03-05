@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="titulo"><h1>(DeS)Encriptador de Textos</h1></div>
+
+    <div class="container">
+        <div class="input-area">
+            <textarea id="textToEncrypt" name="textToEncrypt" placeholder="Digite seu texto aqui..." autofocus wrap="soft"></textarea>
+    <div class="botoes">
+        <label id="paragrafo">Apenas letras minusculas e sem acento.</label>
+        <button id="botaoCripto">Criptografar</button>
+        <button id="botaoDescripto">Descriptografar</button>
+        </div>
+    </div>
+    <div id="sel" class="output-area">
+      <div id="resultadoCripto" class="resultado-area" contenteditable="false">
+        <p>Nenhuma mensagem encontrada</p>
+        </div>
+        <button id="btn-copiar">Copiar</button>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
